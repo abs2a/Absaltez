@@ -23,7 +23,7 @@ ydl_opts = {
 
 
 @app.on_message(
-    filters.command(["تحميل","يوتيوب","بحث"],"") & ~filters.edited)
+    filters.command(["تحميل","يوت","بحث"],"") & ~filters.edited)
 def song(_, message):
     query = " ".join(message.command[1:])
     m = message.reply("- **ابشر جاري البحث ..**")
