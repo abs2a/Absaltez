@@ -10,14 +10,14 @@ from pyrogram import filters
 load_dotenv()
 
 # الايبيهات الهاش والايدي بنجبهم من هنا my.telegram.org
-API_ID = int(getenv("API_ID", "28445440"))
-API_HASH = getenv("API_HASH","db518094aa6f3ba90c3e9a9f48dfacd4")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH","")
 
 ## توكن البوت بنجيبو من هنا @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","1480911289:AAGqr7e_WsSOdgOA84kh4L54ikcUOvnYo1g")
+BOT_TOKEN = getenv("BOT_TOKEN","")
 
 # المونج لو ممعكش سيبو زي مهوه
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://moon:bootsmoon@cluster0.uyvnnox.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI","")
 
 # مده الاغنيه بتبقي ٦٠ دقيقه انا مسويها ٣٠٠ تقدر تزودها
 DURATION_LIMIT_MIN = int(
