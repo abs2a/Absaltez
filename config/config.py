@@ -14,7 +14,7 @@ API_ID = int(getenv("API_ID", "28712667"))
 API_HASH = getenv("API_HASH","0950550f0a30e1828069f67aa8bf5e74")
 
 ## توكن البوت بنجيبو من هنا @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","5846485348:AAGkeoj1SeBHY-2_dkwVsk0exmI97XXeaSk")
+BOT_TOKEN = getenv("BOT_TOKEN","")
 
 # المونج لو ممعكش سيبو زي مهوه
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://veez:mega@cluster0.heqnd.mongodb.net/veez?retryWrites=true&w=majority")
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # جلسه البايروجران تقدر تجبها من هنا@helal_trmix_BOT
-STRING1 = getenv("STRING_SESSION","AgB0EH5wj7w8dWdJtPaUd-qU5gBx0RNPjl6aKNDxM2f9uIkfBFfRrVoxJfhuFUnG4o_gIPe9EnE9-M0shXlHOZx3FFV9CqJPm1asynnTz4CpYUhYhHQSB19WvlFHzxCJdlRX61eJ_le88T_RlHAb8Yqb26ZpdvHCRym7Ct0QfGjUmkMayfE36VDZS-_L4SoP6zZfraU4hX1LdlFCnj1EEpjPp1KQ8YVZ6H3W36KxJN1kO1Gb6GQqL8SwWipX99Vzbf6g_U-AtcTsoPuZ0C0Bdm6fUujhNDcH67FOn4Evk_2Ww3kLuXBYH5IQ9ICQbQID4FhgdF5-AqmuPNuaGD3xGbhEAAAAAZVhj80A")
+STRING1 = getenv("STRING_SESSION","") 
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
